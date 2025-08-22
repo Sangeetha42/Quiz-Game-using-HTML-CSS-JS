@@ -1,0 +1,127 @@
+/* 🎨 Fun bubble background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+  background-image: radial-gradient(circle at top left, #ff9ff3, transparent 40%),
+                    radial-gradient(circle at bottom right, #00cec9, transparent 40%),
+                    radial-gradient(circle at center, #ffeaa7, transparent 50%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card box */
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  width: 400px;
+  border: 4px pink;
+}
+
+/* Titles */
+.title {
+  font-size: 36px;
+  color: pink;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 80%;
+  margin: 12px auto;
+  padding: 15px;
+  background:pink;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background:pink;
+  transform: scale(1.05);
+}
+
+/* Question */
+.question {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+/* Choices */
+.choice-container {
+  display: flex;
+  align-items: center;
+  background: #ffeaa7;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.choice-container:hover {
+  transform: scale(1.05);
+  border: 2px solid paleturquoise;
+  background: #fff3b0;
+}
+
+.choice-input {
+  margin-right: 12px;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.choice-text {
+  cursor: pointer;
+  flex: 1;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Correct / Incorrect */
+.correct {
+  background: #55efc4 !important;
+  border: 2px solid #00b894 !important;
+}
+
+.incorrect {
+  background: #ff7675 !important;
+  border: 2px solid #d63031 !important;
+}
+
+/* Score */
+.score {
+  margin-top: 20px;
+  font-size: 22px;
+  color:peru;
+  font-weight: bold;
+}
+
+/* High scores list */
+.high-scores {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #2d3436;
+}
+
+.high-scores li {
+  background: #ffeaa7;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 10px;
+  font-weight: bold;
+}

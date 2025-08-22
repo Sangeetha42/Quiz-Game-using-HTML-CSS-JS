@@ -1,0 +1,84 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "choice1": "HyperText Markup Language",
+      "choice2": "HighText Markdown Language",
+      "choice3": "Hyper Transfer Markup Language",
+      "choice4": "Hyperlink Markup Language",
+      "answer": 1
+    },
+    {
+      "question": "Which HTML tag is used to define the largest heading?",
+      "choice1": "<h6>",
+      "choice2": "<heading>",
+      "choice3": "<h1>",
+      "choice4": "<head>",
+      "answer": 3
+    },
+    {
+      "question": "Which CSS property changes the text color of an element?",
+      "choice1": "font-style",
+      "choice2": "text-color",
+      "choice3": "color",
+      "choice4": "background-color",
+      "answer": 3
+    },
+    {
+      "question": "Which symbol is used for ID selectors in CSS?",
+      "choice1": ". (dot)",
+      "choice2": "# (hash)",
+      "choice3": "* (asterisk)",
+      "choice4": "& (ampersand)",
+      "answer": 2
+    },
+    {
+      "question": "Inside which HTML element do we put JavaScript?",
+      "choice1": "<script>",
+      "choice2": "<javascript>",
+      "choice3": "<js>",
+      "choice4": "<code>",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "choice1": "String",
+      "choice2": "Boolean",
+      "choice3": "Number",
+      "choice4": "Character",
+      "answer": 4
+    },
+    {
+      "question": "How do you write 'Hello World' in an alert box in JavaScript?",
+      "choice1": "alertBox('Hello World');",
+      "choice2": "alert('Hello World');",
+      "choice3": "msg('Hello World');",
+      "choice4": "msgBox('Hello World');",
+      "answer": 2
+    },
+    {
+      "question": "Which HTML attribute is used to define inline CSS?",
+      "choice1": "class",
+      "choice2": "style",
+      "choice3": "css",
+      "choice4": "font",
+      "answer": 2
+    },
+    {
+      "question": "Which CSS property controls the size of text?",
+      "choice1": "font-size",
+      "choice2": "text-size",
+      "choice3": "font-style",
+      "choice4": "text-style",
+      "answer": 1
+    },
+    {
+      "question": "Which company developed JavaScript?",
+      "choice1": "Google",
+      "choice2": "Microsoft",
+      "choice3": "Netscape",
+      "choice4": "Oracle",
+      "answer": 3
+    }
+  ]
+  
+  
